@@ -1,68 +1,193 @@
-
-.col-1{
-    width: 8.33%;
-    float:left;
-    padding: 15px;
-}
-.col-2{
-    width: 16.66%;
-    float:left;
-    padding: 15px;
-}
-.col-3{
-    width: 25%;
-    float:left;
-    padding: 15px;
-}
-.col-4{
-    width:33.33%;
-    float:left;
-    padding: 15px;
-}
-.col-5{
-    width: 41.66%;
-    float:left;
-    padding: 15px;
-}
-.col-6{
-    width:50% ;
-    float:left;
-    padding: 15px;
-}
-.col-7{
-    width:58.33% ;
-    float:left;
-    padding: 15px;
-}
-.col-8{
-    width: 66,66%;
-    float:left;
-    padding: 15px;
-}
-.col-9{
-    width: 75%;
-    float:left;
-    padding: 15px;
-}
-.col-10{
-    width:83.33% ;
-    float:left;
-    padding: 15px;
-}
-.col-11{
-    width:91.66% ;
-    float:left;
-    padding: 15px;
-}
-.col-12{
-    width: 100%;
-    float:left;
-    padding: 15px;
+*{
+    margin: 0;
+    padding: 0;
 }
 .header{
-    background-color: black;
-    color: white;
-    box-sizing: border-box;
+    width: 100%;
     display: flex;
     justify-content: center;
+    line-height: 34px;
+}
+
+.ul-1{
+    padding-bottom: 10px;
+    display: flex;
+    list-style: none;
+    line-height: 34px;
+    
+}
+
+.li-1{
+    padding-right: 10px;
+    font-style: italic;
+    color: blue;
+}
+
+.logo1{
+    padding-right: 200px;
+    width: 10px;
+    height: 10px;
+}
+
+.banner{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:white;
+    background-image:url("../assets/img/bgp.jpeg");
+    line-height: 34px;
+}
+
+.banner p{
+    color: lavender;
+    font-style: italic;
+    font-size: smaller;
+}
+
+.box{
+    display: flex;
+    line-height: 34px;
+}
+.table{
+    border-collapse: collapse;
+    margin: 10px 0px;
+    width: 50%;
+
+}
+
+.table-head{
+    text-align: left;
+    padding: 8px;
+    background-color:blue;
+}
+
+.table-row{
+    padding: 8px 10px;
+    background-color: blueviolet;
+}
+
+.animation{
+    margin-top: 10px;
+    margin-left: 80px;
+    width: 30px;
+    height: 30px;
+    background-color: brown;
+    position: relative;
+    animation-name:example;
+    animation-duration: 4s;
+    animation-delay: -2s;
+}
+@keyframes example {
+    from{ 
+        background-color: red;
+    }
+    to{
+        background-color: black;
+    }
+}
+
+.contact{
+    background-color: aliceblue;
+    line-height: 34px;
+
+}
+
+.contact h1{
+    font-size: small;
+    font-style: italic;
+    color: blue;
+    margin-left: 100px;
+    
+}
+
+.contact p{
+    margin-left: 100px;
+    font-size: x-small;
+    font-style: italic;
+    color: blueviolet;
+}
+
+.footer{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(215, 215, 243);
+    line-height: 34px;
+    
+}
+
+.copyright{
+    width: 20px;
+    min-height: 20px;
+}
+
+.footer-h1{
+    font-size: small;
+    font-style: italic;
+    color:black;
+}
+
+@media only screen and (min-width: 768px){
+    .header{
+        line-height: 100px;
+        background-color: aliceblue;
+    }
+
+    .logo1{
+        padding-right: 500px;
+        width: 45px;
+        height: 45px;
+    }
+
+    .li-1{
+        padding-right: 10px;
+        font-style: italic;
+        color: blue;
+        font-size: large;
+    }
+    .box{
+        line-height:100px;
+        background-color: aliceblue;
+    }
+
+    .animation{
+        width: 120px;
+        height: 200px;
+}
+.banner{
+    line-height: 150px;
+}
+
+.banner p{
+    font-size:x-large;
+}
+
+.contact{
+    line-height: 50px;
+}
+
+.contact h1{
+    font-size: large;
+}
+
+.contact p{
+    font-size: medium;
+}
+
+.footer{
+    line-height: 40px;
+}
+
+.copyright{
+    width: 25px;
+    min-height: 25px;
+}
+
+.footer-h1{
+    font-size: medium;
+}
+
+}
+
+@media only screen and (min-width: 1000px){
+    
 }
