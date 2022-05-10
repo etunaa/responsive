@@ -189,5 +189,68 @@
 }
 
 @media only screen and (min-width: 1000px){
-    
+    .header{
+        line-height: 150px;
+        background-color: aliceblue;
+    }
+
+    .logo1{
+        padding-right: 900px;
+        width: 45px;
+        height: 45px;
+    }
+
+    .li-1{
+        padding-right: 50px;
+        font-style: italic;
+        color: rgb(76, 63, 99);
+        font-size: xx-large;
+    }
+    .box{
+        margin-left: 20px;
+        margin-right: 20px;
+        line-height:150px;
+        background-color: aliceblue;
+    }
+
+    .animation{
+        width: 120px;
+        height: 200px;
+}
+.banner{
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 150px;
+}
+
+.banner p{
+    margin-right: 20px;
+    font-size:x-large;
+}
+
+.contact{
+    line-height: 50px;
+}
+
+.contact h1{
+    font-size: x-large;
+}
+
+.contact p{
+    font-size: medium;
+}
+
+.footer{
+    line-height: 40px;
+}
+
+.copyright{
+    width: 25px;
+    min-height: 25px;
+}
+
+.footer-h1{
+    font-size: medium;
+}
+
 }
